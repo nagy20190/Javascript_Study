@@ -120,14 +120,57 @@
 // console.log("Area of circle is: " + area);
 
 // --------- from HTML form elements -----------
-const PI = 3.14;
-document.getElementById("button").onclick = function () {
-    let radius = document.getElementById("raduis").value;
-    radius = Number(radius);
-    let area = PI * radius * radius;
-    console.log("Area of circle is: " + area);
-    document.getElementById("result").innerHTML = "Area of circle is: " + area;
-}
+// const PI = 3.14;
+// document.getElementById("button").onclick = function () {
+//     let radius = document.getElementById("raduis").value;
+//     radius = Number(radius);
+//     let area = PI * radius * radius;
+//     console.log("Area of circle is: " + area);
+//     document.getElementById("result").innerHTML = "Area of circle is: " + area;
+// }
 
 
 //#endregion
+
+
+
+// ------- 7. Counter Program ---------------
+//#region  Counter Program
+// const decreaseBtn = document.getElementById("decrease");
+// const resetBtn = document.getElementById("reset");
+// const increaseBtn = document.getElementById("increase");
+// let value = document.getElementById("value");
+// let count = 0;
+
+// decreaseBtn.onclick = function () {
+//     count--;
+//     value.innerHTML = count;
+//     if (count < 0) {
+//         value.style.color = "red";
+//     }
+//     else if (count > 0) {
+//         value.style.color = "green";
+//     }
+//     else {
+//         value.style.color = "black";
+//     }
+// }
+// resetBtn.onclick = function () {
+//     count = 0;
+//     value.textContent = count;
+//     value.style.color = "black";
+// }
+
+// increaseBtn.onclick = function () {
+//     count++;
+//     value.innerHTML = count;
+// }
+
+
+//#endregion
+
+
+
+
+
+
