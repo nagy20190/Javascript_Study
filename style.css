@@ -1,4 +1,4 @@
-body
+/* body
 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -34,4 +34,72 @@ body
 {
     background-color: rgb(228, 228, 1);
     color: white;
+} */
+
+
+/* 
+#submit {
+    background-color: yellow;
+    font-size: large;
+} */
+
+/* Temperature conversion program  */
+
+body
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 240, 240);
 }
+
+h1
+{
+    color: rgb(255, 140, 0);
+}
+
+form
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    max-width: 350px;   
+}
+
+#textBox{
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+label{
+    margin-bottom: 10px;
+color: black;
+font-weight: bold;
+}
+
+#submit{
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: darkorange;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: green;
+} 
